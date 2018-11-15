@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>React Component Props</title>
+    <script src="https://cdn.staticfile.org/react/16.4.0/umd/react.development.js"></script>
+    <script src="https://cdn.staticfile.org/react-dom/16.4.0/umd/react-dom.development.js"></script>
+    <script src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+    class ListItem extends React.Component {
+        constructor(...args){
+            super(...args);
+            this.state={
+                color: ''
+            }
+        }
+
+        fn (){
+            this.setState({
+               color: 'red'
+            })
+        }
+
+        render(){
+            return <li>
+                <input type="button" value="变红" onClick={this.fn.bind(this)} />
+                <h4 style={{color: this.state.color}}>{this.props.data.name}</h4>
+                <h5>{this.props.data.pass}</h5>
+            </li>
+        }
+    }
+    class List extends React.Component {
+        constructor(...args){
+            super(...args);
+        }
+
+        render(){
+            return (
+                    <ul>
+                        {this.props.users.map((json,index) => <ListItem key={index} data={json}></ListItem>)}
+                    </ul>
+                )
+        }
+    }
+    ReactDOM.render(
+        <List users={[
+            {name: '张三', pass: '123'},
+            {name: '李四', pass: '1234'},
+            {name: '王麻子', pass: '12345'},
+            {name: '李爱琴', pass: '123456'}
+        ]} />,
+        document.getElementById('root')
+    );
+</script>
+</body>
+</html>

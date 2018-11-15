@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>State&&生命周期</title>
+		<script src="https://cdn.staticfile.org/react/16.4.0/umd/react.development.js"></script>
+		<script src="https://cdn.staticfile.org/react-dom/16.4.0/umd/react-dom.development.js"></script>
+		<script src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
+	</head>
+	<body>
+ 
+		<div id="root"></div>
+		<script type="text/babel">	
+			class Clock extends React.Component{
+				constructor(props){
+					super(props);
+					this.state = {date: new Date()};
+				}
+				
+				componentDidMount(){   //在组件类上生命特殊的方法，当组件挂载或卸载时，来运行一些代码
+					this.timeID = setInterval(
+						() => this.tick(),
+						1000
+					);					//这就是生命周期钩子
+				}
+				
+				componentWillUnmount(){
+					clearInterval(this.timeID)
+				}
+				
+				tick(){
+					this.setState({
+						date: new Date()
+					});
+				}
+				
+				render(){
+					return(
+						<div>
+							<h1>Hello</h1>
+							<h2>It is {this.state.date.toLocaleTimeString()}</h2>
+						</div>
+					);			
+				}
+			}
+			
+			ReactDOM.render(
+				<Clock />,
+				document.getElementById('root')
+			);
+		</script>
+ 
+	</body>
+</html>

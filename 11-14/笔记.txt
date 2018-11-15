@@ -1,0 +1,34 @@
+1. jsx可以直接创建组件--直接写组件的HTML。
+    *创建出来的是组件--不是HTML标签
+2. 有且只有一个父级根元素。
+3.class -> className
+   for -> htmlFor
+4. 组件
+    *所有组件必须继承自React.Component
+    *必须 render。
+    *必须组件名首字母大写。
+    *必须constructor，并且super。
+5. 组件传参01
+    *<div a='xxx'>  字符串 传的是xxx
+    * <div a={xxx}> 变量
+6. for,if 怎么用？
+    用js自带的语法
+7. {}
+    向HTML输出--{}
+    向属性输出--v-bind
+8.组件传参02
+    *传
+        <xxx name={xxx} />
+    *接
+        this.props.xxx => 所有属性集合  只读
+9.React 可变的一般都是state
+    *初始化-constructor
+        this.state
+    *修改
+        this.setState({
+            aaa:...
+        })
+    *使用
+        this.state.aaa
+10.事件
+    *onClick={this.fn.bind(this)}
