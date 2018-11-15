@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conditional Rendering</title>
+    <script src="https://cdn.staticfile.org/react/16.4.0/umd/react.development.js"></script>
+    <script src="https://cdn.staticfile.org/react-dom/16.4.0/umd/react-dom.development.js"></script>
+    <script src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        function UserGreeting(props) {   //已注册
+            return <h1>Welcome Back!</h1>
+        }
+        function GuestGreeting(props) {  //未注册
+            return <h1>Please sign up.</h1>
+        }
+        function Greeting(props) {   //欢迎
+            const isLoggedIn = props.isLoggedIn  //接受传过来的isLoggedIn的数据
+            if(isLoggedIn){
+                return <UserGreeting />;
+            }
+            return <GuestGreeting />;
+        }
+
+        ReactDOM.render(
+            <Greeting isLoggedIn={false} />,
+            document.getElementById('root')
+        );
+    </script>
+</body>
+</html>

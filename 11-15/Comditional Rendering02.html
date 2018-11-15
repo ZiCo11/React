@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.staticfile.org/react/16.4.0/umd/react.development.js"></script>
+    <script src="https://cdn.staticfile.org/react-dom/16.4.0/umd/react-dom.development.js"></script>
+    <script src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        //注册按钮
+        function LoginButton(props) {
+            return (
+                <button onClick={props.onClick}>
+                    Login
+                </button>
+            );
+        }
+        // 注销按钮
+        function LogoutButton(props) {
+            return (
+                <button onClick={props.onClick}>
+                    Logout
+                </button>
+            );
+        }
+
+        //控制 组件
+        class LoginControl extends React.Component{
+            constructor(props){
+                super(props);
+                this.handleLoginClick = this.handleLoginClick.bind(this);
+                this.handleLogoutClick = this.handleLogoutClick.bind(this);
+                this.state = {isLoggedIn: false};
+            }
+            handleLoginClick() {
+                this.setState =({isLoggedIn: true});
+            }
+            handleLogoutClick(){
+                this.setState=({isLoggedIn: false});
+            }
+            render(){
+                const isLoggedIn = this.state.isLoggedIn;
+                let button = null;
+                // 如果登录了，就渲染注销按钮  注销按钮绑定点击事件 重新设定登录为false
+                if(isLoggedIn){
+                    button = <LogoutButton onClick={this.handleLogoutClick} />
+                } else{
+                    // 如果注销了，就渲染登录按钮 登录按钮绑定点击事件 重新设定登录为true
+                    button = <LoginButton onClick={this.handleLoginClick} />
+                }
+
+                return (
+                    <div>
+                        <Greeting isLoggedIn={isLoggedIn} />
+                        {button}
+                    </div>
+                );
+            }
+        }
+        // 欢迎组件
+        function UserGreeting(props) {   //已注册
+            return <h1>Welcome Back!</h1>
+        }
+        // 注册组件
+        function GuestGreeting(props) {  //未注册
+            return <h1>Please sign up.</h1>
+        }
+        function Greeting(props) {   //欢迎
+            const isLoggedIn = props.isLoggedIn;  //接受传过来的isLoggedIn的数据
+            if(isLoggedIn){
+                return <UserGreeting />;
+            }
+            return <GuestGreeting />;
+        }
+
+
+        ReactDOM.render(
+            <LoginControl />,
+            document.getElementById('root')
+        );
+    </script>
+</body>
+</html>
