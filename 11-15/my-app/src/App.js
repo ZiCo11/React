@@ -1,26 +1,53 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import {BrowserRouter, Router,Switch, Route, Link} from 'react-router-dom';
+import List from './List'
+
+import Cmp from './Cmp'
+import Cmp2 from './Cmp2'
+import CmpRedux from './CmpRedux'
+import CmpRedux2 from './CmpRedux2'
+
 import './App.css';
 
 class App extends Component {
+  constructor(props){
+      super(props);
+      this.state ={
+          count: 0
+      }
+  }
+  fnClick(){  {/*父传子 父通过refs引用子级*/}
+      this.refs.cmp1.addCount();
+  }
+  addCount2(){  {/*子传父  父暴露的方法*/}
+      this.setState({
+          count: this.state.count+1
+      })
+  }
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+        <BrowserRouter>
+          <div className="box">
+            <List arr={[1,2,3]}/>
+
+            <input type='button' onClick={this.fnClick.bind(this)} value='父传子 父点+1'/>  {/* 父传子--父 */}
+            <Cmp ref='cmp1' />   {/* 父传子--子 */}
+
+              {/*---子传父--- */}
+            {this.state.count}
+            <Cmp2 add={this.addCount2.bind(this)} />  {/* 子传父--子 */}
+
+            {/*router  redux*/}
+            <div>
+                <Link to='/'>组件1</Link>
+                <Link to='/b/123'>组件2</Link>
+                <Switch>
+                    <Route exact path='/' component={CmpRedux}/>
+                    <Route path='/b/:id' component={CmpRedux2}/>
+                </Switch>
+            </div>
+          </div>
+        </BrowserRouter>
     );
   }
 }

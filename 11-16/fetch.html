@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fetch</title>
+</head>
+<body>
+    <script>
+        // fetch('https://www.jb51.net/article/146523.htm')  //返回一个Promise对象
+        //     .then((res) => {
+        //         return res.text()  // res.text()是一个Promise对象
+        //     })
+        //     .then((res) => {
+        //         console.log(res);  //res是最终的结果
+        //     })
+        fetch('http://example.com/movies.json')
+            .then(function(response) {
+                return response.json();
+            })
+            .then(function(myJson) {
+                console.log(myJson);
+            });
+    </script>
+</body>
+</html>

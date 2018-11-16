@@ -9,6 +9,61 @@
    * public 静态文件
       index.html 入口HTML文件
 3.读取数据
-    * fetch?
+    * 直接fetch
 4.组件传值
     * flux  redux?
+    * 父 -> 子
+        子： 需要暴露方法
+        父： 通过ref引用子级 -> 子级.方法（）---this.refs.cmp1.addCount();
+    * 子 -> 父
+        父： 需要暴露方法
+        子： 引用父级.方法（）
+    **暴露方法
+        父 -> ref
+        子 -> props
+    ***统一管理
+        redux
+5. route 里加exact  表示精确匹配路径
+6. 使用router
+    *最外层加<BrowserRouter>
+    //单一父级
+        <div>
+            ...
+            //类似<select>
+            <Switch>
+                //类似<option>
+                <Route exact path='xxx' component={component1}/>
+                <Route path='xxx/:id' component={component2}/>
+            </Switch>
+        </div>
+
+    </BrowserRouter>
+7.跳转路由
+    * <Link to='path'>xxx</Link>
+    *路由参数
+        this.props.match.params/:id(传id)
+8.redux
+    *import {createStore} from 'redux';
+    *创建store对象
+        const store=createStore(function(state,action){
+            //根据action修改state
+
+            return state；
+        })；
+        使用store对象,设置
+        store.dispatch({type, xxx})
+        读取
+        store.getState()
+        订阅
+        store.subscribe(function(){});
+
+        **
+            createStore(function (state, action) {  //修改 ，初始化
+                return state;
+
+            });
+            store.dispatch({action});
+            store.getState() ==> state对象
+            store.subscribe(function(){   //修改状态
+
+            })
