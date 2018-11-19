@@ -1,13 +1,22 @@
 import React,{Component} from 'react'
 
+import store from  './store'
+
 class CmpRedux extends Component{
     constructor(...args){
         super(...args);
+        this.state = {count: store.getState().count};
+        store.subscribe(() => {
+            this.setState({
+                count: store.getState().count
+            })
+        })
     }
+
     render(){
         return(
             <div>
-                组件1
+                {this.state.count}
             </div>
         )
     }

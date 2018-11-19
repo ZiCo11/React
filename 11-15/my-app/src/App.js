@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import {BrowserRouter, Router,Switch, Route, Link} from 'react-router-dom';
-import List from './List'
 
+
+import List from './List'
 import Cmp from './Cmp'
 import Cmp2 from './Cmp2'
 import CmpRedux from './CmpRedux'
 import CmpRedux2 from './CmpRedux2'
+import store from './store'
 
 import './App.css';
 
@@ -15,6 +17,9 @@ class App extends Component {
       this.state ={
           count: 0
       }
+  }
+  fn(){
+      store.dispatch({type: 'add'})
   }
   fnClick(){  {/*父传子 父通过refs引用子级*/}
       this.refs.cmp1.addCount();
@@ -46,6 +51,11 @@ class App extends Component {
                     <Route path='/b/:id' component={CmpRedux2}/>
                 </Switch>
             </div>
+
+              <div>
+                  <input type='button' value='按钮' onClick={this.fn.bind(this)} />
+                  <CmpRedux />
+              </div>
           </div>
         </BrowserRouter>
     );
