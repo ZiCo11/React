@@ -1,0 +1,62 @@
+{
+  "name": "@icedesign/website-homepage-scaffold",
+  "version": "1.0.0",
+  "description": "该模板适用于产品类的首页介绍，默认内置一个页面和五个不同风格的展示区块",
+  "dependencies": {
+    "@icedesign/base": "^0.2.0",
+    "@icedesign/container": "^0.1.0",
+    "@icedesign/form-binder": "^0.1.16",
+    "@icedesign/icon": "^0.1.1",
+    "@icedesign/img": "^0.1.0",
+    "@icedesign/layout": "^0.1.3",
+    "@icedesign/menu": "^0.1.1",
+    "@icedesign/skin": "^0.1.14",
+    "axios": "^0.17.1",
+    "classnames": "^2.2.6",
+    "enquire-js": "^0.1.2",
+    "foundation-symbol": "^0.1.4",
+    "prop-types": "^15.5.8",
+    "rc-queue-anim": "^1.6.7",
+    "react": "^16.2.0",
+    "react-amap": "^1.2.7",
+    "react-document-title": "^2.0.3",
+    "react-dom": "^16.6.3",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "ice-scripts": "^1.7.6"
+  },
+  "scripts": {
+    "start": "ice dev",
+    "build": "ice build",
+    "lint": "eslint . --ext '.js,.jsx' --fix"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.com",
+    "access": "public"
+  },
+  "buildConfig": {
+    "theme": "@icedesign/skin",
+    "entry": "src/index.js",
+    "localization": true
+  },
+  "scaffoldConfig": {
+    "name": "ice-website-homepage",
+    "title": "ICE Website HomePage",
+    "categories": [
+      "首页展示"
+    ],
+    "screenshot": "https://img.alicdn.com/tfs/TB1lvtMpQOWBuNjSsppXXXPgpXa-2840-1596.png"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "title": "IceDemo"
+}
