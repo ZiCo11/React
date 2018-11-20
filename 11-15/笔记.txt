@@ -42,28 +42,30 @@
     * <Link to='path'>xxx</Link>
     *路由参数
         this.props.match.params/:id(传id)
-8.redux
-    *import {createStore} from 'redux';
-    *创建store对象
+8.redux   统一数据管理
+    *import {createStore} from 'redux';  //第一步，引入createStore from redux
+    *创建store(存储）对象
         const store=createStore(function(state,action){
-            //根据action修改state
+            // 1.所有创建存储空间(state:只有这一个state对象，从头到尾的，到目前为止的状态)的操作都在这完成
+            // 2. 每当操作修改数据操作（action），这个函数都会被使用，根据action修改state   state必须是唯一的
 
             return state；
+            // 每次操作必须返回state，否则state就会是undefined。
         })；
-        使用store对象,设置
-        store.dispatch({type, xxx})
+    * 使用store对象,设置
+        store.dispatch({type, xxx});
         读取
-        store.getState()
-        订阅
+        store.getState();
+        订阅(有修改的时候会通知你)
         store.subscribe(function(){});
 
         **
-            createStore(function (state, action) {  //修改 ，初始化
-                return state;
+            createStore(function (state, action) {  //该函数会在 修改 ，初始化 的时候执行
+                return state;    //必须返回state
 
             });
-            store.dispatch({action});
-            store.getState() ==> state对象
-            store.subscribe(function(){   //修改状态
+            store.dispatch({action}); // dispatch传值给action（数据是这样的：type：‘xxx’）
+            store.getState() ==> 得到state对象
+            store.subscribe(function(){   //修改状态时被触发
 
             })

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import {BrowserRouter, Router,Switch, Route, Link} from 'react-router-dom';
+import Button from '@icedesign/base/lib/button';
+import Img from '@icedesign/img';
 
 
 import List from './List'
@@ -10,6 +12,9 @@ import CmpRedux2 from './CmpRedux2'
 import store from './store'
 
 import './App.css';
+
+//icedesign
+const image = 'https://img.alicdn.com/tfs/TB1saOBbYGYBuNjy0FoXXciBFXa-218-58.png';
 
 class App extends Component {
   constructor(props){
@@ -55,6 +60,12 @@ class App extends Component {
               <div>
                   <input type='button' value='按钮' onClick={this.fn.bind(this)} />
                   <CmpRedux />
+              </div>
+
+              {/*//ice design*/}
+              <div className='App'>
+                  <Button type='primary'>button</Button>
+                  <Img src={image} />
               </div>
           </div>
         </BrowserRouter>

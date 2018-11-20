@@ -2,9 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>flex</title>
+    <style>
+        li{
+            list-style: none;
+            color: antiquewhite;
+        }
+        .header{
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+            max-width: 1200px;
+            height: 30px;
+            background: #61dafb;
+        }
+        .header .left{
+            display: flex;
+            align-items: center;
+        }
+        .header .left li{
+            display: block;
+            padding: 0 10px;
+        }
+        .header .right{
+            display: flex;
+            align-items: center;
+        }
+    </style>
 </head>
 <body>
-$END$
+    <div class="header">
+        <ul class="left">
+            <li>women</li>
+            <li>man</li>
+            <li>child</li>
+        </ul>
+        <ul class="right">
+            <li>女人</li>
+            <li>男人</li>
+            <li>孩子</li>
+        </ul>
+    </div>
 </body>
 </html>

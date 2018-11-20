@@ -1,3 +1,9 @@
+@import '~@icedesign/base/dist/ICEDesignBase.css';
+
+
+.App {
+  text-align: center;
+}
 .box ul li {
   color: #61dafb;
 }
