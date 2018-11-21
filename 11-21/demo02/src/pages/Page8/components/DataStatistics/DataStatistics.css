@@ -1,0 +1,6 @@
+.data-statistics .item-box:nth-child(2n) {
+  justify-content: flex-end; }
+
+.data-statistics .itemIcon:before {
+  font-size: 31px;
+  width: 31px; }
