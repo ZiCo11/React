@@ -4,11 +4,11 @@ import Button from '@icedesign/base/lib/button';
 import Img from '@icedesign/img';
 
 
-import List from './List'
-import Cmp from './Cmp'
-import Cmp2 from './Cmp2'
-import CmpRedux from './CmpRedux'
-import CmpRedux2 from './CmpRedux2'
+import List from './other/List'
+import Cmp from './other/Cmp'
+import Cmp2 from './other/Cmp2'
+import CmpRedux from './other/CmpRedux'
+import CmpRedux2 from './other/CmpRedux2'
 import store from './store'
 
 import './App.css';
