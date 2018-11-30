@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <title>MAP</title>
+    <!--// 这里是写地图的容器样式-->
+    <style type="text/css">
+        html {
+            height: 100%;
+        }
+        body{
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        #container{
+            height: 80%;
+        }
+    </style>
+    <script type="text/javascript" src = 'http://api.map.baidu.com/api?v=2.0&ak=b8ZVGiIMhrzuXpVdRUenR74Pocv8q2lu'></script>
+</head>
+<body>
+<!--这里是地图的容器-->
+<div id="container"></div>
+</body>
+</html>
+<script type="text/javascript">
+    let map = new BMap.Map('container');
+    let point = new BMap.Point((116.404, 39.915), 11);
+    map.centerAndZoom(point, 15);
+    // 开启鼠标滚轮缩放 默认是关闭的
+    map.enableScrollWheelZoom(true);
+
+    //添加控件
+    map.addControl(new BMap.NavigationControl());
+    map.addControl(new BMap.NavigationControl());
+    map.addControl(new BMap.ScaleControl());
+    map.addControl(new BMap.OverviewMapControl());
+    map.addControl(new BMap.MapTypeControl());
+    map.setCurrentCity('北京'); // 仅当设置城市信息时， MapTypeControl的切换功能才能可用
+    var opts = {offset: new BMap.Size(150, 5)}
+    map.addControl(new BMap.ScaleControl(opts));
+</script>
