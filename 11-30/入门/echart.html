@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Echart</title>
+</head>
+<body>
+   <!--echart 需要一个具备大小（宽高）的DOM-->
+    <div id="main" style="height: 400px"></div>
+    <!--echart 单文件引入-->
+   <script type="text/javascript" src="../js/echarts.js"></script>
+
+   <script type="text/javascript">
+        // 配置路径
+        // require.config({
+        //     paths: {
+        //         echarts: 'http://echarts.baidu.com/build/dist'
+        //     }
+        // });
+
+        //  使用
+        // require(
+        //     [
+        //         'echart',
+        //         'echart/char/bar' //使用柱状图加载bar模块，按需加载
+        //     ],
+        // function f(ec){
+        //         // 基于准备好的dom初始化echart图表
+        //         let myChart = ec.init(document.getElementById('main'));
+        //         let option = {
+        //             tooltip: {
+        //                 show: true
+        //             },
+        //             legend: {
+        //                 data: ['销量']
+        //             },
+        //             xAxis: [
+        //                 {
+        //                     type: 'category',
+        //                     data: ['衬衫','羊毛衫', '雪纺衫', '裤子', '高跟鞋', '袜子']
+        //                 }
+        //             ],
+        //             yAxis: [
+        //                 {
+        //                     type: 'value'
+        //                 }
+        //             ],
+        //             series: [
+        //                 {
+        //                     'name': '销量',
+        //                     'type': 'bar',
+        //                     'data': [5, 20, 40, 10, 10, 20]
+        //                 }
+        //             ]
+        //         };
+        //
+        //         // 为echart对象加载数据
+        //         myChart.setOption(option);
+        //     }
+        //     f();
+        var dom = document.getElementById('main');
+        var myChart = echarts.init(dom);
+        var app ={};
+        option = null;
+        // option = {
+            // xAxis: [
+            //     {
+            //         type: 'category',
+            //         data: ['衬衫','羊毛衫', '雪纺衫', '裤子', '高跟鞋', '袜子']
+            //     }
+            // ],
+            // yAxis: [
+            //     {
+            //         type: 'value'
+            //     }
+            // ],
+            // series: [
+            //     {
+            //         'name': '销量',
+            //         'type': 'bar',
+            //         'data': [5, 20, 40, 10, 10, 20]
+            //     }
+            // ]
+
+        // };
+        if (option && typeof option === 'object'){
+            myChart.setOption(option, true);
+        }
+    </script>
+</body>
+</html>

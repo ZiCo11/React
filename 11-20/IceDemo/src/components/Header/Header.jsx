@@ -7,11 +7,15 @@ import './Header.scss';
 const MENUS = [
   {
     name: '设计',
-    path: '/ice/docs/ice-design',
+    path: '/',
+  },
+  {
+    name: '登录',
+    path: '/#/login',
   },
   {
     name: '文档',
-    path: '/ice/docs',
+    path: '/',
   },
   {
     name: '物料',
@@ -49,17 +53,7 @@ const MENUS = [
   },
   {
     name: '社区',
-    children: [
-      {
-        name: '知乎专栏',
-        path: 'https://zhuanlan.zhihu.com/ice-design',
-      },
-      {
-        name: '万能群',
-        path:
-          require('./images/ice-group.png'),
-      },
-    ],
+    path: '/page6',
   },
 ];
 

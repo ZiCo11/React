@@ -5,6 +5,8 @@
 import BlankLayout from './layouts/BlankLayout';
 import Home from './pages/Home';
 import Page3 from './pages/Page3';
+
+import Login from './pages/Login';
 import NotFound from './pages/NotFound';
 
 const routerConfig = [
@@ -17,6 +19,11 @@ const routerConfig = [
     path: '/page3',
     layout: BlankLayout,
     component: Page3,
+  },
+  {
+    path: '/login',
+    layout: BlankLayout,
+    component: Login,
   },
   {
     path: '*',

@@ -1,10 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/11-15/my-app/src/CmpRedux.js" line="18" />
+    <bookmark url="file://$PROJECT_DIR$/11-15/my-app/src/other/CmpRedux.js" line="18" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="511020c7-a6e9-497b-aace-ede65736eb19" name="Default Changelist" comment="" />
+    <list default="true" id="511020c7-a6e9-497b-aace-ede65736eb19" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-30/echart.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-30/js/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-30/入门/echart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-30/入门/堆积折线图.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-30/入门/数据动态更新.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-30/入门/柱状图.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-30/入门/标准折线图.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-30/南丁格尔图Echarts/南丁格尔图Echarts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/React-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/React-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-20/IceDemo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/11-20/IceDemo/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-20/IceDemo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/11-20/IceDemo/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-20/IceDemo/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/11-20/IceDemo/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-20/IceDemo/src/components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/11-20/IceDemo/src/components/Header/Header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-20/IceDemo/src/layouts/layout02/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/11-20/IceDemo/src/layouts/layout02/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-20/IceDemo/src/layouts/layout02/layout02.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/11-20/IceDemo/src/layouts/layout02/layout02.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-20/IceDemo/src/menuConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/11-20/IceDemo/src/menuConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-20/IceDemo/src/routerConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/11-20/IceDemo/src/routerConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-21/demo02/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/11-21/demo02/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-21/demo02/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/11-21/demo02/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-21/demo02/src/assets/scss/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/11-21/demo02/src/assets/scss/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-22/uwjx-ice-www-uwjx-com" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -61,162 +89,120 @@
     <session id="1364382068">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="16" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.24" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="17" />
-          <entry key="html" value="1859" />
-          <entry key="js" value="4654" />
-          <entry key="jsx" value="365" />
+          <entry key="html" value="4734" />
+          <entry key="js" value="4734" />
+          <entry key="jsx" value="820" />
           <entry key="md" value="18" />
-          <entry key="txt" value="1670" />
+          <entry key="txt" value="2236" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="17" />
-          <entry key="HTML" value="1859" />
-          <entry key="JSX Harmony" value="365" />
-          <entry key="JavaScript" value="4654" />
+          <entry key="HTML" value="4734" />
+          <entry key="JSX Harmony" value="820" />
+          <entry key="JavaScript" value="4734" />
           <entry key="Markdown" value="18" />
-          <entry key="PLAIN_TEXT" value="1670" />
+          <entry key="PLAIN_TEXT" value="2236" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="5" />
+          <entry key="css" value="6" />
+          <entry key="env" value="1" />
           <entry key="gitignore" value="2" />
-          <entry key="html" value="19" />
-          <entry key="ico" value="1" />
+          <entry key="html" value="31" />
+          <entry key="ico" value="2" />
+          <entry key="jpeg" value="1" />
           <entry key="jpg" value="5" />
-          <entry key="js" value="45" />
-          <entry key="json" value="17" />
-          <entry key="jsx" value="30" />
-          <entry key="md" value="3" />
-          <entry key="png" value="33" />
-          <entry key="scss" value="3" />
-          <entry key="txt" value="4" />
+          <entry key="js" value="90" />
+          <entry key="json" value="28" />
+          <entry key="jsx" value="111" />
+          <entry key="md" value="7" />
+          <entry key="png" value="38" />
+          <entry key="scss" value="6" />
+          <entry key="svg" value="1" />
+          <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="5" />
-          <entry key="HTML" value="19" />
-          <entry key="Image" value="39" />
-          <entry key="JSON" value="17" />
-          <entry key="JSX Harmony" value="30" />
-          <entry key="JavaScript" value="45" />
-          <entry key="Markdown" value="3" />
-          <entry key="PLAIN_TEXT" value="6" />
-          <entry key="SCSS" value="3" />
+          <entry key="CSS" value="6" />
+          <entry key="HTML" value="31" />
+          <entry key="Image" value="46" />
+          <entry key="JSON" value="28" />
+          <entry key="JSX Harmony" value="111" />
+          <entry key="JavaScript" value="90" />
+          <entry key="Markdown" value="7" />
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="SCSS" value="6" />
+          <entry key="SVG" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/Page3.jsx">
+        <entry file="file://$PROJECT_DIR$/11-30/入门/echart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            <state relative-caret-position="347">
+              <caret line="60" column="49" lean-forward="true" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="49" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11-30/南丁格尔图Echarts/南丁格尔图Echarts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/11-20/IceDemo/build/index.html">
+        <entry file="file://$PROJECT_DIR$/11-30/入门/数据动态更新.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/components/Banner/Banner.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+            <state relative-caret-position="235">
+              <caret line="48" column="31" lean-forward="true" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/components/SimpleSlider/SimpleSlider.jsx">
+        <entry file="file://$PROJECT_DIR$/11-30/echart.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/components/DownloadCard/DownloadCard.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Home/components/JoinUs/JoinUs.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Home/components/LandingIntroBanner/LandingIntroBanner.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Home/components/IceworksInfo/IceworksInfo.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/components/BrandDisplay/BrandDisplay.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="351">
+              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -227,10 +213,21 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>var</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>F:\React\11-21\demo02</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -238,21 +235,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/src/js/components/Header.js" />
-        <option value="$PROJECT_DIR$/11-14/2.html" />
-        <option value="$PROJECT_DIR$/11-14/1.html" />
-        <option value="$PROJECT_DIR$/11-14/4.html" />
-        <option value="$PROJECT_DIR$/11-14/笔记.txt" />
-        <option value="$PROJECT_DIR$/11-14/3.html" />
-        <option value="$PROJECT_DIR$/11-15/1.html" />
-        <option value="$PROJECT_DIR$/11-15/Events.html" />
-        <option value="$PROJECT_DIR$/11-15/Conditional Rendering.html" />
-        <option value="$PROJECT_DIR$/11-14/ListRender.html" />
-        <option value="$PROJECT_DIR$/11-15/aa.html" />
         <option value="$PROJECT_DIR$/11-15/Comditional Rendering02.html" />
         <option value="$PROJECT_DIR$/11-15/react-app-practice/package.json" />
         <option value="$PROJECT_DIR$/11-16/fetch.html" />
@@ -277,12 +259,33 @@
         <option value="$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/components/CalendarDate/components/CalendarDate.jsx" />
         <option value="$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/components/CalendarDate/components/CalendarDate.js" />
         <option value="$PROJECT_DIR$/11-20/IceDemo/src/components/JoinUs.jsx" />
-        <option value="$PROJECT_DIR$/11-20/IceDemo/src/pages/Home/Home.jsx" />
-        <option value="$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/Page3.jsx" />
         <option value="$PROJECT_DIR$/11-20/IceDemo/src/pages/Home/components/IceworksInfo/IceworksInfo.jsx" />
         <option value="$PROJECT_DIR$/11-20/IceDemo/src/pages/Home/components/LandingIntroBanner/LandingIntroBanner.jsx" />
         <option value="$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/components/Banner/Banner.jsx" />
         <option value="$PROJECT_DIR$/11-19/react-build-demo/readme.md" />
+        <option value="$PROJECT_DIR$/11-20/IceDemo/src/layouts/layout02/index.js" />
+        <option value="$PROJECT_DIR$/11-21/icedemo02/src/pages/Page1/components/IntroBanner/IntroBanner.jsx" />
+        <option value="$PROJECT_DIR$/11-21/demo02/src/pages/Page5/Page5.jsx" />
+        <option value="$PROJECT_DIR$/11-21/demo02/src/menuConfig.js" />
+        <option value="$PROJECT_DIR$/11-21/demo02/src/pages/Dashboard/components/header/index.jsx" />
+        <option value="$PROJECT_DIR$/11-21/demo02/src/pages/Dashboard/Dashboard.jsx" />
+        <option value="$PROJECT_DIR$/11-20/IceDemo/src/layouts/layout02/layout02.jsx" />
+        <option value="$PROJECT_DIR$/11-20/IceDemo/src/pages/Home/Home.jsx" />
+        <option value="$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/Page3.jsx" />
+        <option value="$PROJECT_DIR$/11-21/demo02/src/server.js" />
+        <option value="$PROJECT_DIR$/11-20/IceDemo/src/routerConfig.js" />
+        <option value="$PROJECT_DIR$/11-20/IceDemo/src/components/Header/Header.jsx" />
+        <option value="$PROJECT_DIR$/11-20/IceDemo/src/pages/Login/components/UserLogin/UserLogin.jsx" />
+        <option value="$PROJECT_DIR$/11-30/js/echarts.js" />
+        <option value="$PROJECT_DIR$/11-30/echart.html" />
+        <option value="$PROJECT_DIR$/11-30/堆积折线图.html" />
+        <option value="$PROJECT_DIR$/11-30/标准折线图.html" />
+        <option value="$PROJECT_DIR$/11-30/柱状图.html" />
+        <option value="$PROJECT_DIR$/11-30/echart.txt" />
+        <option value="$PROJECT_DIR$/11-30/自定义构建Echarts/echarts.custom.js" />
+        <option value="$PROJECT_DIR$/11-30/自定义构建Echarts/自定义构建Echarts.html" />
+        <option value="$PROJECT_DIR$/11-30/南丁格尔图Echarts/南丁格尔图Echarts.html" />
+        <option value="$PROJECT_DIR$/11-30/入门/数据动态更新.html" />
       </list>
     </option>
   </component>
@@ -295,19 +298,21 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/11-15/my-app/node_modules" />
     <handled-path value="$PROJECT_DIR$/11-20/IceDemo/node_modules" />
+    <handled-path value="$PROJECT_DIR$/11-21/demo02/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/11-15/my-app/package.json" />
       <path value="$PROJECT_DIR$/11-20/IceDemo/package.json" />
+      <path value="$PROJECT_DIR$/11-21/demo02/package.json" />
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="385" />
-    <option name="y" value="8" />
-    <option name="width" value="1757" />
-    <option name="height" value="1100" />
+    <option name="x" value="1009" />
+    <option name="y" value="15" />
+    <option name="width" value="1532" />
+    <option name="height" value="1095" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -327,31 +332,13 @@
             <path>
               <item name="React" type="b2602c69:ProjectViewProjectNode" />
               <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="11-19" type="462c0819:PsiDirectoryNode" />
+              <item name="11-30" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="React" type="b2602c69:ProjectViewProjectNode" />
               <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="11-19" type="462c0819:PsiDirectoryNode" />
-              <item name="react-build-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="11-20" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="11-20" type="462c0819:PsiDirectoryNode" />
-              <item name="IceDemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="11-20" type="462c0819:PsiDirectoryNode" />
-              <item name="IceDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="11-30" type="462c0819:PsiDirectoryNode" />
+              <item name="入门" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -363,7 +350,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/YJ/IceDesignDemo/IceDemo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -372,8 +359,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\React\11-30" />
+      <recent name="F:\React\11-30\入门" />
+      <recent name="F:\React\11-22" />
+      <recent name="F:\React\11-15\my-app\src\other" />
       <recent name="F:\React\11-20\IceDemo\src\pages\Page3\components\CalendarDate\components" />
-      <recent name="F:\React-demo\src\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\React\11-30\js" />
+      <recent name="F:\React\11-20\IceDemo\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -388,10 +382,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.reducer.js">
-    <configuration name="4.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/React-demo/11-14/4.html">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.echarts.custom.js">
     <configuration name="Comditional Rendering02.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/React/11-15/Comditional Rendering02.html">
       <method v="2" />
     </configuration>
@@ -401,23 +392,26 @@
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/React/11-15/my-app/public/index.html">
       <method v="2" />
     </configuration>
+    <configuration name="echarts.custom.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="echarts.custom.js" working-dir="$PROJECT_DIR$/11-30/南丁格尔图Echarts">
+      <method v="2" />
+    </configuration>
     <configuration name="reducer.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="reducer.js" working-dir="$PROJECT_DIR$/11-15/my-app/src/store">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.4.html" />
       <item itemvalue="JavaScript Debug.Conditional Rendering.html" />
       <item itemvalue="JavaScript Debug.Comditional Rendering02.html" />
       <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="Node.js.reducer.js" />
+      <item itemvalue="Node.js.echarts.custom.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.echarts.custom.js" />
         <item itemvalue="Node.js.reducer.js" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.Comditional Rendering02.html" />
         <item itemvalue="JavaScript Debug.Conditional Rendering.html" />
-        <item itemvalue="JavaScript Debug.4.html" />
       </list>
     </recent_temporary>
   </component>
@@ -438,30 +432,42 @@
       <workItem from="1542331279328" duration="17663000" />
       <workItem from="1542589790951" duration="18094000" />
       <workItem from="1542676361725" duration="7787000" />
-      <workItem from="1542685947763" duration="9887000" />
+      <workItem from="1542685947763" duration="10647000" />
+      <workItem from="1542763265491" duration="16525000" />
+      <workItem from="1542848778558" duration="769000" />
+      <workItem from="1542850674611" duration="7786000" />
+      <workItem from="1542871134274" duration="553000" />
+      <workItem from="1542871778711" duration="27000" />
+      <workItem from="1542954070584" duration="6311000" />
+      <workItem from="1543194576037" duration="436000" />
+      <workItem from="1543370389027" duration="855000" />
+      <workItem from="1543386076229" duration="4718000" />
+      <workItem from="1543394468318" duration="763000" />
+      <workItem from="1543460291768" duration="917000" />
+      <workItem from="1543540917712" duration="14070000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94054000" />
+    <option name="totallyTimeSpent" value="148544000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="385" y="8" width="1757" height="1100" extended-state="0" />
+    <frame x="1009" y="15" width="1532" height="1095" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49925262" visible="true" weight="0.2181501" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49925262" visible="true" weight="0.251004" />
       <window_info id="Structure" order="1" sideWeight="0.5007474" side_tool="true" weight="0.24984802" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32912722" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32912722" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32826087" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39957938" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2818086" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.5195652" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -494,304 +500,278 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/components/Header/Header.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2184">
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/components/SimpleSlider/images/TB1bewbNVXXXXc5XXXXXXXXXXXX-1000-300.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/components/SimpleSlider/images/TB1ikP.NVXXXXaYXpXXXXXXXXXX-1000-300.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/components/SimpleSlider/images/TB1s1_JNVXXXXbhaXXXXXXXXXXX-1000-300.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/mock/simple-slider.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page4/components/LatestActivity/LatestActivity.jsx" />
+    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page6/components/MapWithAMarker/MapWithAMarker.jsx" />
+    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page6/Page6.jsx" />
+    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/components/block1/index.jsx" />
+    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page4/Page4.scss" />
+    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page4/index.js" />
+    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page4/Page4.jsx" />
+    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page4/components/LatestActivity/RankList.jsx" />
     <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/router.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding>
-            <element signature="e#17#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Home/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Home/components/Materials/images/TB18Na6iHSYBuNjSspiXXXNzpXa-3800-2026.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Home/components/LandingIntroBanner/images/TB1cWGdnXGWBuNjy0FbXXb4sXXa-1900-898.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Home/components/BrandList/BrandList.jsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-15/my-app/src/CmpRedux.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-15/my-app/src/CmpRedux2.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/components/SimpleSlider/images/TB1xuUcNVXXXXcRXXXXXXXXXXXX-1000-300.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo02/demo02/src/router.jsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/menuConfig.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo02/demo02/src/menuConfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1008" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo02/demo02/src/routerConfig.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/routerConfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-15/my-app/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" column="73" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/components/Footer/images/TB1hEz2jf6H8KJjy0FjXXaXepXa-60-48.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/components/Banner/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/components/Footer/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/components/CalendarDate/components/CalendarDate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/components/CalendarDate/components/CalendarDate.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/components/MapWithAInfoWindow/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/Page3.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/components/MapWithAInfoWindow/MapWithAInfoWindow.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Home/components/JoinUs/images/TB1JGoDi3vD8KJjy0FlXXagBFXa-5040-2811.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/components/Footer/Footer.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/components/JoinUs.jsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/components/BrandDisplay/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/components/BasicNotFound/BasicNotFound.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-84">
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Home/components/IceworksInfo/images/TB1SbvpgQyWBuNjy0FpXXassXXa-1392-1054.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Home/components/LandingIntroBanner/LandingIntroBanner.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/components/Banner/images/banner.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Home/components/JoinUs/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Home/Home.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Home/components/JoinUs/JoinUs.jsx">
+    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Home/components/MapWithAInfoWindow/MapWithAInfoWindow.jsx" />
+    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/Page3.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Home/components/IceworksInfo/IceworksInfo.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/components/BrandDisplay/BrandDisplay.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/components/DownloadCard/DownloadCard.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/components/Banner/Banner.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/components/SimpleSlider/SimpleSlider.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/build/favicon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/build/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8820" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/build/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-59921" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Page3/Page3.jsx">
+    <entry file="file://$PROJECT_DIR$/11-21/demo02/src/routerConfig.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="140">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/11-19/react-build-demo/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/11-21/demo02/src/pages/Dashboard/Dashboard.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="25" column="56" lean-forward="true" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-21/demo02/src/pages/UserProfile/UserProfile.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3192" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-21/demo02/src/axios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Home/components/DesignLanguage/DesignLanguage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1344" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Home/components/IceworksInfo/IceworksInfo.jsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Home/components/LandingIntroBanner/LandingIntroBanner.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-756" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/components/Header/Header.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Home/components/BrandList/BrandList.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Home/Home.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Login/Login.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Login/components/UserLogin/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Login/components/UserLogin/UserLogin.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-15/my-app/src/store/reducer.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-15/my-app/src/other/serviceWorker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-336" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-15/my-app/src/other/logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-15/my-app/src/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-15/my-app/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/11-20/IceDemo/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="420">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/routerConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/menuConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/layouts/BlankLayout/Layout.jsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/pages/Login/components/UserLogin/UserLogin.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#36#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-20/IceDemo/src/axios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-30/js/echarts .js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="39" selection-end-line="93417" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-30/js/echarts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2542">
+          <caret line="93417" selection-start-line="93417" selection-end-line="93417" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-30/入门/标准折线图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="84" column="10" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="84" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-30/入门/柱状图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-30/入门/堆积折线图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="68" column="18" lean-forward="true" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-30/echart.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/echarts/build/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3276" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-30/自定义构建Echarts/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3024" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-30/自定义构建Echarts/echarts.custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-30/入门/echart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="60" column="49" lean-forward="true" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-30/南丁格尔图Echarts/南丁格尔图Echarts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-30/入门/数据动态更新.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="48" column="31" lean-forward="true" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

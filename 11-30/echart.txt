@@ -1,0 +1,23 @@
+步骤：
+    1. 确定一个有宽高的DOM，来放置图表。
+    2. 引入下载好的echart开发文件，约2.3M。
+    3. 使用初始化：
+        // 初始化dom
+        let dom = document.getElementById('main');
+        let myChart = echarts.init(dom);
+        let app = {};
+        option = null;
+        // 这里就是放置图表数据的地方
+        option = {
+            xxxx
+        };
+        if ( option && typeof option === 'object') {
+            myChart.setOption(option, true);
+        };
+-----------------------------------------------------------
+自定义构建echarts：
+    1. npm i echarts --save
+    2, 使用ES Module:
+            import * as echarts from 'echarts';
+    3. 使用CommonJS:
+            var echarts = require('echarts')
