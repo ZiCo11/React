@@ -7,7 +7,7 @@ export default {
     }],
     plugins: [
         ['umi-plugin-react', {
-        // some code
+            antd: true
         }],
     ],
 };
