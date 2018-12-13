@@ -1,4 +1,4 @@
-1.申请百度账号和ak
+﻿1.申请百度账号和ak
 2.准备页面
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     // 设置容器样式大小，使地图充满整个浏览器窗口
@@ -40,4 +40,37 @@
         map.addControl(new BMap.OverviewMapControl());
         map.addControl(new BMap.MapTypeControl());
         map.setCurrentCity('北京'); // 仅当设置城市信息时， MapTypeControl的切换功能才能可用
+
+
+---------------------------------------------------------------------------------------------------
+
+这是关于React-Bmap的文档。
+  * react-bmap是基于react和百度地图JavaScript API组件库。
+安装
+  * 页面头部需加载百度地图api代码
+     ** <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=您的密钥"></script>
+     ** npm i react-bmap
+hello world
+      import {Map, Marker, NavigationControl, InfoWindow} from 'react-bmap';
+
+      <Map center={{lng: 116.402544, lat: 39.928216}}>
+          <Marker position={{lng: 116.402544, lat: 39.928216}} />
+          <NavigationControl />
+          <InfoWindow position={{lng: 116.402544, lat: 39.928216}} text="信息窗口内容" title="信息窗口标题"/>
+      </Map>
+引入说明
+    * map
+      最外层地图基础组件，其他组件都包含在地图组件里面 https://github.com/huiyan-fe/react-bmap/blob/master/src/components/map.md
+    * marker
+      标注组件，可以在地图上打标注 https://github.com/huiyan-fe/react-bmap/blob/master/src/components/marker.md
+    * 地图控件组件
+
+      <NavigationControl />
+      <MapTypeControl />
+      <ScaleControl />
+      <OverviewMapControl />
+
+       NavigationControl MapTypeControl ScaleControl OverviewMapControl  PanoramaControl
+       官网控件文档：http://lbsyun.baidu.com/cms/jsapi/class/jsapi_reference.html#a2b16
+
 
