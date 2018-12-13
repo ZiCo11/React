@@ -30,11 +30,16 @@ export default {
                   },
               ],
             },
+            {
+              path: 'puzzlecards',
+              component: './puzzlecards',
+            },
         ]
     }],
     plugins: [
         ['umi-plugin-react', {
-            antd: true
+            antd: true,
+            dva: true,
         }],
     ],
 };
