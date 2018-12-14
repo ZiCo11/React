@@ -15,6 +15,7 @@ export default {
         type: 'save',
         payload: response,
       });
+      console.log(response)
     },
     *fetchCurrent(_, { call, put }) {
       const response = yield call(queryCurrent);

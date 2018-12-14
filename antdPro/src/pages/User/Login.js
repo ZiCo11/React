@@ -5,6 +5,7 @@ import Link from 'umi/link';
 import { Checkbox, Alert, Icon } from 'antd';
 import Login from '@/components/Login';
 import styles from './Login.less';
+import axios from 'axios';
 
 const { Tab, UserName, Password, Mobile, Captcha, Submit } = Login;
 
@@ -33,7 +34,9 @@ class LoginPage extends Component {
             type: 'login/getCaptcha',
             payload: values.mobile,
           })
-            .then(resolve)
+            .then(resolve => {
+              console.log(resolve);
+            })
             .catch(reject);
         }
       });
@@ -51,6 +54,23 @@ class LoginPage extends Component {
         },
       });
     }
+    console.log('type是： ', type, 'values是： ', values);
+    // axios.post('http://hn.uwjx.com:8080/uwjx-iot-api/account/login', {
+    //   username: values.userName,
+    //   password: values.password,
+    // })
+    //   .then((res) => {
+    //     if (res.data.code === 200 && res) {
+    //       // 本地存储用户信息
+    //       console.log(res.data);
+    //       sessionStorage.setItem('key', JSON.stringify(res));
+    //       localStorage.setItem('key', JSON.stringify(res));
+    //       // this.props.history.push('/');
+    //     }
+    //   })
+    //   .catch((err) => {
+    //     console.log(err);
+    //   });
   };
 
   changeAutoLogin = e => {
