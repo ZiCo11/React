@@ -19,6 +19,7 @@ export default {
         type: 'changeLoginStatus',
         payload: response,
       });
+      console.log('这里是model login里面的effects的payload数据：',payload);
       // Login successfully
       if (response.status === 'ok') {
         reloadAuthorized();
@@ -72,6 +73,8 @@ export default {
         ...state,
         status: payload.status,
         type: payload.type,
+        username: payload.userName,
+        password: payload.password,
       };
     },
   },

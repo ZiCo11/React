@@ -253,6 +253,17 @@ export default [
               },
             ],
           },
+          {
+            path: '/newPage',
+            name: 'newPage',
+            // component: './newPage/newPage',
+            routes: [
+              {
+                path: './newPage/newPage',
+                redirect: '/newPage/newPage',
+              }
+            ]
+          },
         ],
       },
       {

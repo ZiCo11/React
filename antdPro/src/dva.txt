@@ -1,0 +1,47 @@
+
+Model对象的熟悉
+namespace: 当前Model的名称， 整个应用的state，由多个小的moedel的state以namespace为key合成。
+state: 该model当前的状态，数据保存在这里，直接决定了视图层的输出
+reducer: action的处理器，处理同步动作的，用来算出最新的state。
+effect: action处理器 处理异步动作。
+
+{
+    namescape: 'count',
+    state: 0,
+    reducer: {
+        add(state) {
+            return state + 1
+    },
+    effects: {
+        *addAfterSecond(action, { call, put}) {
+            yield(delay, 1000);
+            yield put({ type: 'add' });
+        }, call
+    },
+}
+}
+-------------------
+reducer
+    reducer是 action的处理器，用来处理同步操作，
+        可以看做是state的计算器，它的作用是根据action从上一个state算出当前的state 。
+function add(state) {
+    return state + 1;
+}
+
+function addToDo(state, action) {
+    return [...state, action.payload]
+}
+
+function addToDo() {
+    return {
+        ...state,
+        todos: state.todos.connect(action.payload),
+        loading: false
+    }
+}
+  effect
+    action的处理器 处理异步动作，基于redux-saga实现。 effect指的是副作用 根据函数式编程，
+      计算以外的操作都属于effect，典型的就是I/O操作，数据库读写。
+    call和put
+      call： 执行异步函数
+      put： 发出一个action 类似dispatch

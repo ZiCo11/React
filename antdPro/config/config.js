@@ -73,10 +73,10 @@ export default {
     '@antv/data-set': 'DataSet',
   },
   // proxy: {
-  //   '/server/api/': {
-  //     target: 'https://preview.pro.ant.design/',
+  //   '/user/login': {
+  //     target: 'http://hn.uwjx.com:8080/uwjx-iot-api/account/login',
   //     changeOrigin: true,
-  //     pathRewrite: { '^/server': '' },
+  //     // pathRewrite: { '^/server': '' },
   //   },
   // },
   ignoreMomentLocale: true,

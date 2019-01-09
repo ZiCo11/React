@@ -9,6 +9,7 @@ import axios from 'axios';
 
 const { Tab, UserName, Password, Mobile, Captcha, Submit } = Login;
 
+// 这里是连接命名为login的model
 @connect(({ login, loading }) => ({
   login,
   submitting: loading.effects['login/login'],
@@ -51,10 +52,13 @@ class LoginPage extends Component {
         payload: {
           ...values,
           type,
+          // username: values.userName,
+          // password: values.password,
         },
       });
     }
     console.log('type是： ', type, 'values是： ', values);
+
     // axios.post('http://hn.uwjx.com:8080/uwjx-iot-api/account/login', {
     //   username: values.userName,
     //   password: values.password,

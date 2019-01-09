@@ -63,7 +63,7 @@ const cachedSave = (response, hashcode) => {
  * @param  {object} [option] The options we want to pass to "fetch"
  * @return {object}           An object containing either "data" or "err"
  */
-const url = 'http://hn.uwjx.com:8080/account/login';
+
 export default function request(url, option) {
   const options = {
     expirys: isAntdPro(),

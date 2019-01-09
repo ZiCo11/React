@@ -55,7 +55,7 @@ export async function fakeChartData() {
 }
 
 export async function queryTags() {
-  return request('/api/tags');
+  return request('/api/account/login');
 }
 
 export async function queryBasicProfile() {
@@ -104,9 +104,12 @@ export async function updateFakeList(params) {
 }
 
 export async function fakeAccountLogin(params) {
-  return request('/api/login/account', {
+  return request('http://hn.uwjx.com:8080/uwjx-iot-api/account/login', {
     method: 'POST',
-    body: params,
+    id: {
+      username: params.userName,
+      password: params.password,
+    },
   });
 }
 
