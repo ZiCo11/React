@@ -72,13 +72,13 @@ export default {
   externals: {
     '@antv/data-set': 'DataSet',
   },
-  // proxy: {
-  //   '/user/login': {
-  //     target: 'http://hn.uwjx.com:8080/uwjx-iot-api/account/login',
-  //     changeOrigin: true,
-  //     // pathRewrite: { '^/server': '' },
-  //   },
-  // },
+  proxy: {
+    '/api/login/account': {
+      target: 'http://hn.uwjx.com:8080/uwjx-iot-api/account/login',
+      changeOrigin: true,
+      //np pathRewrite: { '^/server': '' },
+    },
+  },
   ignoreMomentLocale: true,
   lessLoaderOptions: {
     javascriptEnabled: true,

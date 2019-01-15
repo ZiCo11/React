@@ -52,12 +52,12 @@ class LoginPage extends Component {
         payload: {
           ...values,
           type,
-          // username: values.userName,
-          // password: values.password,
+          username: values.userName,
+          password: values.password,
         },
       });
     }
-    console.log('type是： ', type, 'values是： ', values);
+    console.log('type是:', type, 'values是:', values);
 
     // axios.post('http://hn.uwjx.com:8080/uwjx-iot-api/account/login', {
     //   username: values.userName,

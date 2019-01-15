@@ -15,13 +15,19 @@ export default {
   effects: {
     *login({ payload }, { call, put }) {
       const response = yield call(fakeAccountLogin, payload);
+      // if (response.success){
+      //   console.log('qingqiuchenggong')
+      // }
       yield put({
         type: 'changeLoginStatus',
         payload: response,
       });
+      console.log(response);
+      // payload  是输入的用户名 密码
       console.log('这里是model login里面的effects的payload数据：',payload);
       // Login successfully
       if (response.status === 'ok') {
+        console.log(response);
         reloadAuthorized();
         const urlParams = new URL(window.location.href);
         const params = getPageQuery();

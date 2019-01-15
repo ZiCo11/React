@@ -103,14 +103,16 @@ export async function updateFakeList(params) {
   });
 }
 
+
+// params 是用户输入的用户名和密码 http://hn.uwjx.com:8080/uwjx-iot-api/account/login
 export async function fakeAccountLogin(params) {
   return request('http://hn.uwjx.com:8080/uwjx-iot-api/account/login', {
     method: 'POST',
-    id: {
+    body: {
       username: params.userName,
       password: params.password,
     },
-  });
+  }).then(console.log(params));
 }
 
 export async function fakeRegister(params) {

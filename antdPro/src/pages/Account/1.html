@@ -57,8 +57,8 @@
     document.getElementById('incrementIfAsync').addEventListener('click', function() {
       setTimeout(function() {
         store.dispatch({
-          type: 'INCREMENT'
-        }, 1000)
+          type: 'DECREMENT'
+        }, 3000)
       })
     });
   </script>

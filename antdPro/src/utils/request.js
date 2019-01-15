@@ -65,6 +65,12 @@ const cachedSave = (response, hashcode) => {
  */
 
 export default function request(url, option) {
+  const headers = {
+    'Accept': 'application/x-www-form-urlencoded',
+    'Access-Control-Allow-Origin':'*',
+    'Access-Control-Allow-Methods': 'POST, GET, OPTIONS, PUT, DELETE',
+    'Access-Control-Allow-Credentials': true
+  };
   const options = {
     expirys: isAntdPro(),
     ...option,
@@ -91,6 +97,9 @@ export default function request(url, option) {
     if (!(newOptions.body instanceof FormData)) {
       newOptions.headers = {
         Accept: 'application/json',
+        headers,
+        // header: 'Access-Control-Allow-Credentials: true',
+        // header:'Access-Control-Allow-Origin: *',
         'Content-Type': 'application/json; charset=utf-8',
         ...newOptions.headers,
       };
@@ -99,6 +108,8 @@ export default function request(url, option) {
       // newOptions.body is FormData
       newOptions.headers = {
         Accept: 'application/json',
+        headers,
+        // header: 'Access-Control-Allow-Credentials: true',
         ...newOptions.headers,
       };
     }
